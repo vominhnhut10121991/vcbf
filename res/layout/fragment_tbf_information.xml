@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity_and_fragment.ActivityFundBalanced" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="120dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="80dp" >
+
+            <TextView
+                style="@style/txtHeader"
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fund_fragment_button_TBF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_fragment_fund_information"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:maxLines="1000"
+                android:paddingBottom="120dp"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/vcbf_banner"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/vcbf_banner"
+        android:src="@drawable/vcbf_banner1" />
+
+</RelativeLayout>

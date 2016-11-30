@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/table_date"
+                android:layout_weight="1"
+                android:gravity="left" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/black" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/table_sub_header1"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/Per_Unit_price_VND"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/black" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/NAV_Unit_percent" />
+
+            <TextView
+                android:id="@+id/table_navunit"
+                android:layout_weight="1"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/NAV_change" />
+
+            <TextView
+                android:id="@+id/table_navchange"
+                android:layout_weight="1"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/table_sub_header2"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/Fifty_two_Week_Range_VND"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/black" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/Highest_NAV_unit_52w" />
+
+            <TextView
+                android:id="@+id/table_highestnavunit"
+                android:layout_weight="1"
+                android:gravity="right" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/Lowest_NAV_unit_52w" />
+
+            <TextView
+                android:id="@+id/table_lowestnavunit"
+                android:layout_weight="1"
+                android:gravity="right" />
+        </TableRow>
+    </TableLayout>
+
+</FrameLayout>

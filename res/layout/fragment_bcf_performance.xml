@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e4e4"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="120dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        style="@style/txtHeader"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="@string/Portfolio_Statistics"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/table_date"
+                        android:layout_weight="1"
+                        android:gravity="left" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@android:color/black" />
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="@string/Net_Asset_Value" />
+
+                    <TextView
+                        android:id="@+id/table_netassetvalue"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="@string/Portfolio_Turnover_Rate" />
+
+                    <TextView
+                        android:id="@+id/table_turnoverrate"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="#e4e4e4" />
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/table_sub_header2"
+                        style="@style/txtHeader"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="@string/Portfolio_Positions" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@android:color/black" />
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="@string/Total_positions" />
+
+                    <TextView
+                        android:id="@+id/table_totalposition"
+                        android:layout_weight="1"
+                        android:gravity="right" />
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#e4e4e4" />
+
+            <TextView
+                style="@style/txtHeader"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/Portfolio_Details"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/portfolio_details_chart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@android:color/black"
+                android:orientation="vertical" />
+
+            <ListView
+                android:id="@+id/portfolio_details_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#e4e4e4" />
+
+            <TextView
+                style="@style/txtHeader"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/Industry_Break_Down"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/fund_performance_chart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@android:color/black"
+                android:orientation="vertical" />
+
+            <ListView
+                android:id="@+id/fund_performance_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#e4e4e4" />
+
+            <TextView
+                style="@style/txtHeader"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/Top_5_Holdings"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/black" />
+
+            <ListView
+                android:id="@+id/top_five_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/vcbf_banner"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/vcbf_banner"
+        android:src="@drawable/vcbf_banner3" />
+
+</RelativeLayout>

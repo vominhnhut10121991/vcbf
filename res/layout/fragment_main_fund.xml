@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="#e4e4e4" >
+
+    <LinearLayout
+        android:id="@+id/activity_main_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="120dp" >
+
+        <Button
+            android:id="@+id/button_balance_fund"
+            style="@style/button_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_button"
+            android:text="@string/fund_fragment_button_TBF" />
+
+        <Button
+            android:id="@+id/button_blue_chip_fund"
+            style="@style/button_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_button"
+            android:text="@string/fund_fragment_button_BCF" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/vcbf_banner"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/vcbf_banner"
+        android:src="@drawable/vcbf_banner3" />
+
+</RelativeLayout>

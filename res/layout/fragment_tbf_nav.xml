@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e4e4"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="120dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/txtHeader"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/Fund_Prices_and_Breakpoints"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/layout_first_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/table_fund_nav"
+                android:paddingBottom="50dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#e4e4e4" />
+
+            <include
+                android:id="@+id/layout_second_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/table_fund_nav"
+                android:paddingBottom="50dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#e4e4e4" />
+
+            <Spinner
+                android:id="@+id/month_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/month_array"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:prompt="@string/month_promt" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#e4e4e4" />
+
+            <TextView
+                style="@style/txtHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:text="@string/NAV_per_Unit"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nav_date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left" />
+
+            <LinearLayout
+                android:id="@+id/fund_nav_chart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@android:color/black"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/vcbf_banner"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/vcbf_banner"
+        android:src="@drawable/vcbf_banner2" />
+
+</RelativeLayout>

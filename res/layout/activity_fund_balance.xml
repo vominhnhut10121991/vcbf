@@ -1,0 +1,382 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="activity_and_fragment.ActivityFundBalanced" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="left" >
+
+                <TextView
+                    android:gravity="left"
+                    android:text="@string/VCBF_Tatical_Balance_Fund"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/symbol" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/symbol_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/portfolio_turnover_rate" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/portfolio_turnover_rate_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/license_number" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/license_number_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/supervisory_bank" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/supervisory_bank_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/auditor" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/auditor_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/distributors" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/distributors_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/profit_distributions" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/profit_distributions_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/net_asset_value" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/net_asset_value_text" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/black" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/nav_unit" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/nav_unit_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/nav_change_since_last_month" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/nav_change_since_last_month_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/ytd_total_return_at_nav" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/ytd_total_return_at_nav_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/highest_nav_units" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/highest_nav_units_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/lowest_nav_units" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/lowest_nav_units_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/number_of_outstanding_units" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/number_of_outstanding_units_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/percentage_of_foreign_ownership" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/percentage_of_foreign_ownership_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/distribution_rate_at_nav" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/distribution_rate_at_nav_text" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/black" />
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="left" >
+
+                <TextView
+                    android:gravity="left"
+                    android:text="@string/Expense_ratio_and_Turnover_rate"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/opearting_expense_rate" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/opearting_expense_rate_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/portfolio_turnover_rate" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/portfolio_turnover_rate_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/sales_change" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/sales_change_text" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

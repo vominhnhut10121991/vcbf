@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/popup_border2"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/layout_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/table_fund_nav"
+        android:paddingBottom="50dp" />
+
+    <ImageView
+        android:id="@+id/vcbf_banner"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/vcbf_logo_en" />
+
+</LinearLayout>

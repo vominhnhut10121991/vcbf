@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login">Đăng Nhập</string>
+    <string name="logout">Đăng Xuất</string>
+    <string name="username">Tài Khoản</string>
+    <string name="password">Mật Khẩu</string>
+    <string name="investorInformation">Thông Tin Nhà Đầu Tư</string>
+    <string name="investorName">Tên Nhà Đầu Tư</string>
+    <string name="investorNo">Mã Nhà Đầu Tư</string>
+    <string name="investorHolding">Holding Nhà Đầu Tư</string>
+    <string name="investorNav">NAV Nhà Đầu Tư</string>
+    <string name="investorValue">Giá Trị Nhà Đầu Tư</string>
+    <string name="investorType">Loại Quỹ</string>
+    <string name="from">Từ </string>
+    <string name="to"> tới </string>
+    <string name="asOf">Tại ngày </string>
+    <string name="dismissPopupMessage">Bấm vào đây để thoát</string>
+    <string name="hochiminh_contact">VCBF Hồ Chí Minh</string>
+    <string name="hanoi_contact">VCBF Hà Nội</string>
+    <string name="contact_us">Liên lạc với chúng tôi</string>
+    <string name="deleteAllMessage">Xoá tất cả</string>
+    <string name="fundInformation">THÔNG TIN</string>
+    <string name="fundNAV">NAV</string>
+    <string name="fundPerformance">HIỆU SUẤT</string>
+    <string name="fundLogin">THÔNG TIN</string>
+    <string name="activity_main_disclaimer">Đây là việc từ chối trách nhiệm</string>
+    <string name="activity_main_text1">Chào mừng đến với Quản Lý Quỹ Vietcombank</string>
+    <string name="activity_main_text2">Chạm màn hình để tiếp tục</string>
+    <string name="fund_fragment_button_TBF">Quỹ Đầu Tư Cân Bằng Chiến Lược VCBF</string>
+    <string name="fund_fragment_button_BCF">Quỹ Đầu Tư Cổ Phiếu Hàng Đầu VCBF</string>
+    <string name="app_name">VCBF</string>
+    <string name="hello_world">Chào thế giới!</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="title_activity_tab">VCBF</string>
+    <string name="about_us">VỀ CHÚNG TÔI</string>
+    <string name="news">TIN TỨC</string>
+    <string name="fund">QUỸ</string>
+    <string name="message">TIN NHẮN</string>
+    <string name="setting">CÀI ĐẶT</string>
+    <string name="vcbf_icon">Hình tượng VCBF</string>
+    <string name="vcbf_banner">Biểu ngữ VCBF</string>
+    <string name="month_promt">Chọn một tháng</string>
+    <string name="year_promt">Chọn một năm</string>
+    <string name="deleteMessage">Xoá</string>
+    <string name="cancelMessage">Huỷ</string>
+    <string name="news_all">Tất Cả</string>
+
+    <string-array name="month_array">
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Đây là một mảnh trống.</string>
+    <string name="title_activity_balance_fund">HOẠTĐỘNGQUỸCÂNBẰNG</string>
+    <string name="title_activity_news">HOẠTĐỘNGTINTỨC</string>
+    <string name="symbol">Biểu tượng</string>
+    <string name="inception_date">Ngày thành lập</string>
+    <string name="license_number">Giấy phép số</string>
+    <string name="supervisory_bank">Ngân hàng giám sát</string>
+    <string name="auditor">Kiểm toán</string>
+    <string name="distributors">Nhà phân phối</string>
+    <string name="profit_distributions">Phân chia lợi nhuận</string>
+    <string name="net_asset_value">Giá trị tài sản ròng</string>
+    <string name="nav_unit">Giá trị tài sản ròng/1 CCQ</string>
+    <string name="nav_change_since_last_month">Giá trị tài sản ròng thay đổi so với tháng trước</string>
+    <string name="ytd_total_return_at_nav">Tỉ suất sinh lời trong năm</string>
+    <string name="highest_nav_units">Giá trị tài sản ròng/1 CCQ cao nhất (52 tuần)</string>
+    <string name="lowest_nav_units">Giá trị tài sản ròng/1 CCQ thấp nhất (52 tuần)</string>
+    <string name="number_of_outstanding_units">Số lượng chứng chỉ quỹ đang lưu hành</string>
+    <string name="percentage_of_foreign_ownership">Tỷ lệ sở hữu của nhà đầu tư nước ngoài</string>
+    <string name="distribution_rate_at_nav">Tỷ lệ phân phối lợi nhuận</string>
+    <string name="opearting_expense_rate">Tỷ lệ chi phí hoạt động (%)</string>
+    <string name="portfolio_turnover_rate">Tỷ lệ vòng quay danh mục (%)</string>
+    <string name="sales_change">Phí bán (Mức cao nhất)</string>
+    <string name="symbol_text">VCBF-TBF</string>
+    <string name="inception_date_text">24/12/2013</string>
+    <string name="license_number_text">07/GCN-UBCK</string>
+    <string name="supervisory_bank_text">Deustche Bank, Chi nhánh Tp.HCM</string>
+    <string name="auditor_text">Chưa có</string>
+    <string name="distributors_text">SSI, Vietcombank, VCBS</string>
+    <string name="profit_distributions_text">Chưa có</string>
+    <string name="net_asset_value_text">VND 73,976,386,490</string>
+    <string name="nav_unit_text">10,580.60</string>
+    <string name="nav_change_since_last_month_text">2.88%</string>
+    <string name="ytd_total_return_at_nav_text">5.71%</string>
+    <string name="highest_nav_units_text">10,787.45</string>
+    <string name="lowest_nav_units_text">9,781.44</string>
+    <string name="number_of_outstanding_units_text">6,991,698.47</string>
+    <string name="percentage_of_foreign_ownership_text">37.27%</string>
+    <string name="distribution_rate_at_nav_text">Chưa có</string>
+    <string name="opearting_expense_rate_text">2.24%</string>
+    <string name="portfolio_turnover_rate_text">14.55%</string>
+    <string name="sales_change_text">2%</string>
+    <string name="btn_dl_detail_pricing">Tải giá chi tiết</string>
+    <string name="txt_frag_fund_nav_1"><b>Biến động giá NAV</b></string>
+    <string name="txt_frag_fund_nav_2">Tại ngày 30/6/2014</string>
+    <string name="txt_frag_fund_nav_3"><b>Trên 1 chứng chỉ quỹ (VND)</b></string>
+    <string name="txt_frag_fund_nav_4">NAV/1 CCQ                      10 580.60</string>
+    <string name="txt_frag_fund_nav_5">Thay đổi so với tháng trước                        2.88%</string>
+    <string name="txt_frag_fund_nav_6">Giá IPO   10 000.00</string>
+    <string name="txt_frag_fund_nav_7"><b>Biến động trong vòng 52 tuần</b></string>
+    <string name="txt_frag_fund_nav_8">NAV/1 CCQ cao nhất        10 787.45</string>
+    <string name="txt_frag_fund_nav_9">NAV/1 CCQ thấp nhất          9 781.44</string>
+
+    <!-- MINH -->
+
+    <string name="tacticalbalancedfund" formatted="false">
+<![CDATA[
+<p><strong>Mô tả<br></strong></p> 
+Quỹ Đầu Tư Cân Bằng Chiến Lược VCBF ("quỹ VCBF-TBF") có sự linh hoạt trong phân bổ tài sản theo chiến lược đầu tư phòng thủ hoặc tăng trưởng tùy thuộc vào cơ hội đầu tư sẵn có tại các thời điểm khác nhau. Trong điều kiện thị trường bình thường, Quỹ VCBF-TBF sẽ đầu tư 50% giá trị tài sản ròng (NAV) vào cổ phiếu và 50% vào các tài sản có thu nhập cố định có chất lượng tín dụng tốt.</p>
+<p><strong>Mục tiêu đầu tư<br></strong></p> 
+Mục tiêu đầu tư của Quỹ VCBF-TBF là mang lại lợi nhuận dài hạn thông qua tăng trưởng vốn gốc và thu nhập.</p>
+<p><strong>Chiến lược đầu tư<br></strong></p> 
+<ul>
+<li><p>Quỹ VCBF-TBF đầu tư vào một danh mục đa dạng các cổ phiếu niêm yết có giá trị vốn hóa thị trường lớn và các trái phiếu Chính phủ Việt Nam, trái phiếu chính quyền địa phương, trái phiếu có bảo lãnh của Chính phủ, hay trái phiếu niêm yết của doanh nghiệp có xếp hạng tín dụng tốt.</p></li>
+<li><p>Quỹ VCBF-TBF tìm kiếm sự kết hợp tối ưu giữa cố phiếu và các tài sản có thu nhập cố định thông qua đánh giá rủi ro và lợi nhuận của các cơ hội đầu tư vào các loại tài sản.</p></li>
+<li><p>Quỹ VCBF-TBF kết hợp cả chiến lược đầu tư tăng trưởng và chiến lược đầu tư giá trị trong đầu tư cổ phiếu.</p></li>
+<li><p>Quỹ VCBF-TBF áp dụng <b>phương pháp tiếp cận từ dưới lên</b> trong đầu tư: nghĩa là đội ngũ đầu tư của quỹ sẽ gặp gỡ ban điều hành của các công ty, phân tích về công ty từ tình hình tài chính, mô hình kinh doanh, chiến lược kinh doanh dài hạn cho đến các yếu tố chi tiết như sản phẩm, nguồn nguyên liệu, đối thủ cạnh tranh, thị phần, lợi nhuận, mức độ tăng trưởng,…Từ đó, đội ngũ đầu tư sẽ phân tích ngành để xác định vị thế của các công ty trong ngành mà công ty đang kinh doanh. Kế đến là phân tích tình hình kinh tế Việt Nam và thế giới để xác định các ảnh hưởng đến tình hình kinh doanh của công ty. Đối với cách đầu tư này, quỹ có thể quyết định mua và bán dựa trên cách đánh giá cho từng cổ phiếu riêng biệt. Chiến lược đầu tư này đặc biệt có thể tìm ra các loại cổ phiếu bị định giá thấp hơn giá trị thực và có tiềm năng tăng trưởng tốt trong dài hạn.</p></li>
+</ul>
+<p><strong>Lợi nhuận tham chiếu của Quỹ<br></strong></p>
+<p>Lợi nhuận tham chiếu của quỹ VCBF-TBF là trung bình cộng giữa tỉ lệ tăng trưởng của VN-Index và lợi nhuận của trái phiếu Chính phủ 10 năm.</p>
+<p><strong>Lợi ích của Quỹ<br></strong></p> 
+<ul>
+<li><p>Quỹ VCBF-TBF có sự đa dạng hóa rộng và cân bằng giữa các loại tài sản đầu tư nên hấp dẫn để trở thành tài sản cốt lõi trong danh mục của các nhà đầu tư.</p></li>
+<li><p>Quỹ VCBF-TBF có chiến lược linh hoạt trong phân bổ tài sản đầu tư khi các điều kiện kinh tế vĩ mô thay đổi.</p></li>
+<li><p>Quỹ VCBF-TBF là cũng có các lợi ích khác của một quỹ mở. Bạn có thể đọc thêm các lợi ích của một quỹ mở tại mục <a href="http://www.vcbf.com/quy-mo/khai-niem-co-ban-ve-quy-mo/loi-ich-cua-quy-mo-1/">"Lợi Ích Của Quỹ Mở"</a> trong phần "Khái Niệm Về Quỹ Mở".</p></li>
+]]>
+    </string>
+    <string name="bluechipfund" formatted="false">
+<![CDATA[
+<p><strong>Mô tả<br></strong></p>
+<p>Quỹ Đầu Tư Cổ Phiếu Hàng Đầu VCBF (“quỹ VCBF- BCF”) đầu tư đến 100% giá trị tài sản ròng (NAV) vào cổ phiếu niêm yết, chủ yếu vào các cổ phiếu có vốn hóa thị trường lớn và thanh khoản tốt.</p>
+<p><strong>Mục tiêu đầu tư<br></strong></p>
+<ul style="list-style-type: disc;">
+<li>Mục tiêu đầu tư của Quỹ VCBF-BCF chủ yếu là gia tăng phần vốn gốc trong trung hạn và dài hạn. <strong><strong class="x-large"><strong class="x-large"></strong></strong></strong></li>
+</ul>
+<p><strong>Chiến lược đầu tư<br></strong></p>
+<ul style="list-style-type: disc;">
+<li>Quỹ VCBF-BCF sẽ chủ yếu đầu tư vào một danh mục đa dạng các cổ phiếu niêm yết có giá trị vốn hóa thị trường lớn và có thanh khoản tốt trên HSX và HNX. Cổ phiếu được xem là có vốn hóa thị trường lớn là những cổ phiếu có vốn hóa thị trường lớn hơn vốn hóa thị trường của cổ phiếu có vốn hóa lớn thứ 100 được niêm yết trên HSX.</li>
+<li>Quỹ VCBF-BCF sẽ kết hợp cả chiến lược đầu tư tăng trưởng và chiến lược đầu tư giá trị.</li>
+<li>Quỹ VCBF-BCF sẽ sử dụng phương pháp tiếp cận từ dưới lên tức là từ phân tích các chỉ số cơ bản của công ty để lựa chọn cổ phiếu đầu tư và lựa chọn các công ty trong nhiều ngành khác nhau. Đội ngũ đầu tư của quỹ sẽ gặp gỡ ban điều hành của các công ty, phân tích về công ty từ tình hình tài chính, mô hình kinh doanh, chiến lược kinh doanh dài hạn cho đến các yếu tố chi tiết như sản phẩm, nguồn nguyên liệu, đối thủ cạnh tranh, thị phần, lợi nhuận, mức độ tăng trưởng,…Từ đó, đội ngũ đầu tư sẽ phân tích ngành để xác định vị thế của các công ty tronh ngành mà công ty đang kinh doanh. Kế đến là phân tích tình hình kinh tế Việt Nam và thế giới để xác định các ảnh hưởng đến tình hình kinh doanh của công ty. Đối với cách đầu tư này, quỹ có thể quyết định mua và bán dựa trên cách đánh giá cho từng cổ phiếu riêng biệt. Chiến lược đầu tư này đặc biệt có thể tìm ra các loại cổ phiếu bị định giá thấp hơn giá trị thực và có tiềm năng tăng trưởng tốt trong dài hạn.</li>
+</ul>
+<p><strong>Lợi nhuận tham chiếu của Quỹ<br></strong></p>
+<ul style="list-style-type: disc;">
+<li>Lợi nhuận tham chiếu của Quỹ VCBF-BCF là thay đổi của VN100 Index.</li>
+</ul>
+<p>(VN100 Index là chỉ số chứng khoán bao gồm 100 cổ phiếu có vốn hóa lớn nhất và thanh khoản cao trên sàn HSX).</p>
+<p><strong>Lợi ích của Quỹ<br></strong></p>
+<ul style="list-style-type: disc;">
+<li>Quỹ VCBF –BCF đem đến cho bạn cơ hội gia tăng lợi nhuận dài hạn thông qua việc đầu tư vào một danh mục đa dạng các doanh nghiệp tốt mà có triển vọng phát triển, có đội ngũ quản lý tốt và được định giá hợp lý hoặc các doanh nghiệp bị định giá thấp.</li>
+<li>Quỹ VCBF-BCF cũng có các lợi ích khác của một quỹ mở. Bạn có thể đọc thêm các lợi ích của một quỹ mở  tại mục “<a href="http://www.vcbf.com/quy-mo/khai-niem-co-ban-ve-quy-mo/loi-ich-cua-quy-mo-1/">Lợi Ích Của Quỹ Mở</a>” trong phần “Khái Niệm Về Quỹ Mở”.</li>
+</ul>
+<p><strong>Đối tượng nhà đầu tư<br></strong></p>
+<ul>
+<li>Quỹ VCBF-BCF chú trọng tạo ra lợi nhuận lâu dài thông qua việc đầu tư vào các công ty có vốn hóa lớn, do đó quỹ có thể trở thành danh mục cổ phiếu chủ chốt cho mọi nhà đầu tư với thời gian đầu tư từ 3 đến 5 năm hoặc lâu hơn.</li>
+</ul></div></div>
+]]>
+    </string>
+    <string name="about_us_text" formatted="false">
+<![CDATA[
+        <h1>Công Ty Liên Doanh Quản Lý Quỹ Đầu Tư Chứng Khoán Vietcombank</h1>
+        <p>Công ty Liên Doanh Quản Lý Quỹ Đầu Tư Chứng Khoán Vietcombank ("VCBF") là Công ty liên doanh giữa Ngân Hàng Thương Mại Cổ Phần Ngoại Thương Việt Nam (“Vietcombank”) và Tập đoàn đầu tư đa quốc gia Franklin Templeton Investments (“FTI”). Franklin Templeton Investments là tập đoàn đầu tư tài chính danh tiếng toàn cầu và là tổ chức tiên phong trong việc đầu tư vào các thị trường mới nổi cùng kết hợp với Vietcombank là tổ chức tài chính hàng đầu tại Việt Nam.</p>
+        <p>VCBF mở ra nhiều cơ hội thuận lợi cho việc đầu tư tại thị trường Việt Nam. Bộ phận quản lý các hình thức đầu tư thay thế hiện nay đang quản lý hai quỹ đầu tư và dự định sẽ huy động các quỹ tiếp theo trong thời gian tới. Bộ phận quản lý tài sản của VCBF hiện tại tập trung cung cấp dịch vụ quản lý danh mục đầu tư theo yêu cầu cụ thể cho các tổ chức doanh nghiệp và các khách hàng có tài sản lớn.</p>
+		<p>VCBF quy tụ đội ngũ các chuyên gia điều hành và đầu tư dày dặn kinh nghiệm với nhiều năm làm việc tại các tổ chức tài chính trong và ngoài nước. Quan hệ bền vững với các doanh nghiệp trong nước cộng thêm sự am hiểu sâu rộng về hoạt động của các doanh nghiệp đầu tư tiềm năng đóng vai trò quan trọng trong việc đánh giá và chọn lọc những khoản đầu tư hấp dẫn.</p>
+		<p>VCBF được thành lập vào ngày 2 tháng 12 năm 2005 theo giấy phép thành lập số 06/UBCK-GPHÐQLQ do Ủy Ban Chứng Khoán Nhà nước cấp. Franklin Templeton chính thức trở thành cổ đông nước ngoài của VCBF vào tháng 2 năm 2008.</p>
+		<p>Các quỹ vốn tư nhân và quỹ ủy thác của VCBF đều nằm trong số các quỹ có kết quả hoạt động tốt nhất tại Việt Nam.</p>
+		<p>VCBF đã được Tạp chí World Finance của Anh bình chọn là Công Ty Quản Lý Đầu Tư Tốt Nhất tại Việt Nam năm 2013 (Ấn bản phát hành tháng 7-8/2013).</p>
+		<h1>CÁC ĐỐI TÁC TRONG LIÊN DOANH</h1>
+		<p><strong>Ngân Hàng Thương Mại Cổ Phần Ngoại Thương Việt Nam (“Vietcombank”)</strong></p>
+		<p>Vietcombank nắm giữ 51% vốn tại VCBF và hiện được đánh giá là ngân hàng cao cấp hàng đầu tại Việt Nam nhờ vào năng lực và vai trò chủ chốt trong ngành ngân hàng Việt Nam. Đây là ngân hàng lớn đứng thứ tư xét về tổng tài sản và là ngân hàng có lợi nhuận lớn thứ ba trong nhóm dịch vụ tài chính và ngân hàng tại Việt Nam.</p>
+		<p>Vietcombank hiện đứng đầu trong các hoạt động ngân hàng dành cho doanh nghiệp, vay vốn lưu động, thanh toán quốc tế và dịch vụ thẻ tín dụng. Đây là ngân hàng chính của hệ thống vay liên ngân hàng với hơn ba phần tư hoạt động là dành cho các doanh nghiệp với số lượng lên đến 6.000 khách hàng.</p>
+		<p>Một trong những thế mạnh của Vietcombank là mạng lưới chi nhánh rộng khắp với hơn 400 văn phòng và 14.000 nhân viên, cung cấp cho ngân hàng mật độ bao phủ toàn Việt Nam. Hiện tại Vietcombank đang niêm yết trên Sở giao dịch chứng khoán Hồ Chí Minh (“HOSE”) với mã niêm yết là “VCB”.</p>
+		<p><strong>Franklin Templeton Investments ("FTI")</strong></p>
+		<p>FTI nắm giữ 49% vốn tại VCBF và là một trong những tập đoàn quản lý tài sản lớn nhất toàn cầu, trụ sở chính đặt tại San Mateo, California. Tập đoàn hiện có văn phòng tại 35 quốc gia và các khách hàng ở 150 nước.</p>
+		<p>Tập đoàn với hơn 65 năm kinh nghiệm và có lịch sử đầu tư lâu dài tại các thị trường mới nổi. FTI là một trong những Công ty Quản lý Đầu tư đầu tiên phát triển khắp toàn cầu. Nhóm quỹ Templeton Emerging Markets Group (“TEMG”) do Tiến sĩ Mark Mobius điều hành hiện hoạt động khắp khu vực Châu Á với 8 trên tổng 18 văn phòng ở châu Á và 29 chuyên viên đầu tư cao cấp.</p>
+		<p>FTI quản lý đầu tư cho các cá nhân, tổ chức, quỹ hưu trí, quỹ tín thác, các tổ chức hợp danh và các khách hàng khác trên toàn cầu. FTI cung cấp các giải pháp đầu tư bao gồm quỹ tương hỗ, quỹ tiết kiệm hưu trí và quỹ tiết kiệm cho giáo dục đại học. Các giải pháp đầu tư nội địa và toàn cầu được quản lý bởi các nhóm đầu tư: Franklin, Templeton và Mutual Series, Bissett, Fiduciary Trus, Darby, Balanced Equity Management và K2. Tổng tài sản FTI đang quản lý tính đến 31/05/2014 đạt hơn 908 tỷ USD.</p>
+		<p>Trong số 110 quỹ mà FTI đang quản lý, có 22 quỹ được Morningstar xếp hạng bốn sao và 12 quỹ được xếp hạng 5 sao tính đến tháng 11/2013. (Morningstar là một tổ chức độc lập của Mỹ chuyên xếp hạng các quỹ).</p>
+		<p>Là một trong những quỹ đầu tư nước ngoài vào Việt Nam sớm nhất với sự ra đời của quỹ Templeton Vietnam Opportunities Fund, quỹ Templeton cũng đã mở văn phòng tại Việt Nam vào tháng 2 năm 1995. Hiện nay, các hoạt động đầu tư tại Việt Nam đang được hỗ trợ từ văn phòng nghiên cứu tại Thành phố Hồ Chí Minh cùng với sự tham gia của VCBF.</p>        ]]>
+    </string>
+
+    <!-- activity_balance_fund.xml -->
+    <string name="VCBF_Tatical_Balance_Fund">VCBF Tatical Balance Fund</string>
+    <string name="Expense_ratio_and_Turnover_rate">Expense ratio and Turnover rate</string>
+
+    <!-- activity_blue_chip_fund.xml -->
+
+
+    <!-- activity_fund_tactical_balance.xml -->
+
+
+    <!-- fragment_fund_information.xml -->
+    <string name="Tactical_Balanced_Fund">Tactical Balanced Fund</string>
+
+    <!-- fragment_fund_login_success.xml -->
+    <string name="LOG_IN">ĐĂNG NHẬP</string>
+
+    <string-array name="settings">
+        <item>Ngôn Ngữ</item>
+        <item>Thông Báo</item>
+    </string-array>
+
+    <!-- fragment_fund_login.xml -->
+    <string name="Investor_Information">Thông tin Nhà đầu tư</string>
+    <string name="Investor_Name">Tên Nhà đầu tư</string>
+    <string name="Investor_Folio_No.">Investor Folio No.</string>
+    <string name="Investor_Holding">Investor Holding</string>
+    <string name="Investor_NAV">Investor NAV</string>
+    <string name="Investor_Value">Investor Value</string>
+    <string name="Fund_Type">Fund Type</string>
+    <string name="Email_Address">Email</string>
+    <string name="Password">Mật khẩu</string>
+    <string name="Log_In">Đăng Nhập</string>
+
+    <!-- fragment_fund_nav.xml -->
+    <string name="Fund_Prices_and_Breakpoints">Biến động giá NAV</string>
+    <string name="NAV_per_Unit">Giá trị tài sản ròng/1 CCQ</string>
+
+    <!-- fragment_fund_performance -->
+    <string name="Portfolio_Statistics">Số liệu thống kê cho danh mục</string>
+    <string name="Net_Asset_Value">Giá trị tài sản ròng</string>
+    <string name="Portfolio_Turnover_Rate">Tỷ lệ vòng quay danh mục</string>
+    <string name="Portfolio_Positions">Tổng danh mục</string>
+    <string name="Total_positions">Tổng danh mục</string>
+    <string name="Portfolio_Details">Chi tiết danh mục</string>
+    <string name="Industry_Break_Down">Phân bổ tài sản theo ngành</string>
+    <string name="Top_5_Holdings">5 mã chứng khoán có giá trị cao nhất</string>
+
+    <!-- fragment_fund.xml -->
+    <!-- fragment_message.xml -->
+
+
+    <!-- fragment_news.xml -->
+    <string name="Old_News">Tin cũ</string>
+
+    <!-- fragment_setting.xml -->
+    <!-- fund_nav_table.xml -->
+    <string name="Per_Unit_price_VND">Trên 1 chứng chỉ quỹ (VND)</string>
+    <string name="NAV_Unit_percent">NAV/CCQ (%)</string>
+    <string name="NAV_change">Thay đổi so với tháng trước</string>
+    <string name="Fifty_two_Week_Range_VND">Biến động trong vòng 52 tuấn (VND)</string>
+    <string name="Highest_NAV_unit_52w">NAV/CCQ cao nhất</string>
+    <string name="Lowest_NAV_unit_52w">NAV/CCQ thấp nhất</string>
+
+    <!-- layout_message_list.xml -->
+    <string name="VCBF">VCBF</string>
+
+    <!-- layout_popup_contact.xml -->
+    <string name="Popup">Popup</string>
+    
+    <string name="loading">Đang tải...</string>
+    <string name="loadingDB">Đang tải dữ liệu, vui lòng chờ...</string>
+
+    <!-- MINH -->
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e4e4"
+    android:orientation="vertical" >
+
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="120dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="120dp" >
+            
+            
+
+            <ListView
+                android:id="@+id/list_messages"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/dark_gray_background"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/text_title_none_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_us"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/hochiminh_contact"
+                    style="@style/button_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/red_button"
+                    android:text="@string/hochiminh_contact" />
+
+                <Button
+                    android:id="@+id/hanoi_contact"
+                    style="@style/button_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/red_button"
+                    android:text="@string/hanoi_contact" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@id/vcbf_banner"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/vcbf_banner"
+        android:src="@drawable/vcbf_banner4" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dark_gray_background"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <Button
+            android:id="@+id/delete_button"
+            style="@style/button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:background="@drawable/red_button"
+            android:text="@string/deleteMessage"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/cancel_button"
+            style="@style/button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:background="@drawable/red_button"
+            android:text="@string/cancelMessage"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.MainTabStyle" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_tabstyle</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.MainTabStyle</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.MainTabStyle</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_tabstyle</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_tabstyle</item>       
+    </style>
+    
+    <style name="ActionBar.Solid.MainTabStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_tabstyle</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_darkgreen_tabstyle</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_tabstyle</item>        
+    </style>
+
+    <style name="ActionBarTabStyle.MainTabStyle" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/maintab_indicator_ab_tabstyle</item>
+    </style>
+    
+    <style name="Theme.FundTabStyle" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_tabstyle</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.FundTabStyle</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.FundTabStyle</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_tabstyle</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_tabstyle</item>       
+    </style>
+    
+    <style name="ActionBar.Solid.FundTabStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_tabstyle</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_darkblue_tabstyle</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_tabstyle</item>        
+    </style>
+
+    <style name="ActionBarTabStyle.FundTabStyle" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/fundtab_indicator_ab_tabstyle</item>
+    </style>
+</resources>

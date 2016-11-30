@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="investorInformation">Investor Information</string>
+    <string name="investorName">Investor Name</string>
+    <string name="investorNo">Investor Folio Number</string>
+    <string name="investorHolding">Investor Holding</string>
+    <string name="investorNav">Investor NAV</string>
+    <string name="investorValue">Investor Value</string>
+    <string name="investorType">Investor Type</string>
+    <string name="from">From </string>
+    <string name="to"> to </string>
+    <string name="asOf">As of </string>
+    <string name="dismissPopupMessage">Tab here to exit</string>
+    <string name="english">english</string>
+    <string name="vietnamese">tiếng việt</string>
+    <string name="hochiminh_contact">VCBF Ho Chi Minh</string>
+    <string name="hanoi_contact">VCBF Ha Noi</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="deleteAllMessage">Delete All</string>
+    <string name="fundInformation">INFORMATION</string>
+    <string name="fundNAV">NAV</string>
+    <string name="fundPerformance">PERFORMANCE</string>
+    <string name="fundLogin">LOGIN</string>
+    <string name="activity_main_disclaimer">This is the disclaimer</string>
+    <string name="activity_main_text1">Welcome to Vietcombank Fund Management</string>
+    <string name="activity_main_text2">Touch screen to continue</string>
+    <string name="fund_fragment_button_TBF">VCBF Tactical Balanced Fund</string>
+    <string name="fund_fragment_button_BCF">VCBF Blue Chip Fund</string>
+    <string name="app_name">VCBF</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tab">VCBF</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="news">NEWS</string>
+    <string name="fund">FUND</string>
+    <string name="message">MESSAGES</string>
+    <string name="setting">SETTING</string>
+    <string name="vcbf_icon">VCBF icon</string>
+    <string name="vcbf_banner">VCBF banner</string>
+    <string name="month_promt">Choose a month</string>
+    <string name="year_promt">Choose a year</string>
+    <string name="deleteMessage">Delete</string>
+    <string name="cancelMessage">Cancel</string>
+
+    <!-- activity_balance_fund.xml -->
+    <string name="VCBF_Tatical_Balance_Fund">VCBF Tatical Balance Fund</string>
+    <string name="Expense_ratio_and_Turnover_rate">Expense ratio and Turnover rate</string>
+
+    <!-- activity_blue_chip_fund.xml -->
+
+
+    <!-- activity_fund_tactical_balance.xml -->
+
+
+    <!-- fragment_fund_information.xml -->
+    <string name="Tactical_Balanced_Fund">Tactical Balanced Fund</string>
+
+    <!-- fragment_fund_login_success.xml -->
+    <string name="LOG_IN">LOG IN</string>
+
+    <!-- fragment_fund_login.xml -->
+    <string name="Investor_Information">Investor Information</string>
+    <string name="Investor_Name">Investor Name</string>
+    <string name="Investor_Folio_No.">Investor Folio No.</string>
+    <string name="Investor_Holding">Investor Holding</string>
+    <string name="Investor_NAV">Investor NAV</string>
+    <string name="Investor_Value">Investor Value</string>
+    <string name="Fund_Type">Fund Type</string>
+    <string name="Email_Address">Email Address</string>
+    <string name="Password">Password</string>
+    <string name="Log_In">Log In</string>
+
+    <!-- fragment_fund_nav.xml -->
+    <string name="Fund_Prices_and_Breakpoints">Fund Prices and Breakpoints</string>
+    <string name="NAV_per_Unit">NAV per Unit</string>
+
+    <!-- fragment_fund_performance -->
+    <string name="Portfolio_Statistics">Portfolio Statistics</string>
+    <string name="Net_Asset_Value">Net Asset Value</string>
+    <string name="Portfolio_Turnover_Rate">Portfolio Turnover Rate</string>
+    <string name="Portfolio_Positions">Portfolio Positions</string>
+    <string name="Total_positions">Total Positions</string>
+    <string name="Portfolio_Details">Portfolio Details</string>
+    <string name="Industry_Break_Down">Industry Break Down</string>
+    <string name="Top_5_Holdings">Top 5 Holdings</string>
+
+    <!-- fragment_fund.xml -->
+    <!-- fragment_message.xml -->
+
+
+    <!-- fragment_news.xml -->
+    <string name="Old_News">Old News</string>
+
+    <!-- fragment_setting.xml -->
+    <!-- fund_nav_table.xml -->
+    <string name="Per_Unit_price_VND">Per Unit price (VND)</string>
+    <string name="NAV_Unit_percent">NAV/Unit (%)</string>
+    <string name="NAV_change">NAV change</string>
+    <string name="Fifty_two_Week_Range_VND">52-Week Range (VND)</string>
+    <string name="Highest_NAV_unit_52w">Highest NAV/unit (52w)</string>
+    <string name="Lowest_NAV_unit_52w">Lowest NAV/unit (52w)</string>
+
+    <!-- layout_message_list.xml -->
+    <string name="VCBF">VCBF</string>
+
+    <!-- layout_popup_contact.xml -->
+    <string name="Popup">Popup</string>
+    <string name="news_all">All News</string>
+
+    <string-array name="month_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="bluechipfund" formatted="false">
+<![CDATA[
+<p><strong>Description<br></strong></p>
+<p>VCBF Blue Chip Fund (“VCBF-BCF”) is an open-ended fund which invests up to 100% of its Net Asset Value in listed equities with large market capitalization and good liquidity.</p>
+<p><strong>Investment objectives<br></strong></p>
+<ul style="list-style-type: disc;">
+<li>The investment objective of the Fund is primarily to provide medium to long term capital appreciation. <strong><strong class="x-large"><strong class="x-large"></strong></strong></strong></li>
+</ul>
+<p><strong>Investment strategy<br></strong></p>
+<ul style="list-style-type: disc;">
+<li>The Fund will primarily invest in a diversified portfolio of stocks listed on the Ho Chi Minh Stock Exchange (“HSX”) and the Ha Noi Stock Exchange (“HNX”) which have a large market capitalization and are liquid. Stocks with large market capitalization are considered as those with market capitalization larger than the hundredth largest stock listed on the HSX.</li>
+<li>The Fund follows a blend of value and growth style of investing.</li>
+<li>The Fund will follow a bottom-up approach to selecting stocks for investment, focusing on the individual attributes of a company, and choosing companies across sectors.</li>
+</ul>
+<p><strong>Benchmark of the Fund<br></strong></p>
+<ul style="list-style-type: disc;">
+<li>The VN100 Index shall be the benchmark.</li>
+</ul>
+<p>(VN100 Index means the index of 100 largest market capitalization and high liquidity stocks on the HSX.).</p>
+<p><strong>Benefits<br></strong></p>
+<ul style="list-style-type: disc;">
+<li>The Fund gives you the opportunity to increase long-term returns through investment in a diversified portfolio of companies that are considered to be the best in their industry, i.e. Blue Chips. These companies typically have good growth prospects, have good management teams and are priced reasonably or undervalued.</li>
+<li>VCBF Tactical Balanced Fund is an open-ended fund. You can read more about&nbsp; benefits of an open-ended fund in <a href="http://www.vcbf.com/en/open-ended-funds/open-ended-fund-basics/benefits-of-open-ended-funds/">“Benefits of OEFs”</a> item on menu “Open-end funds”.</li>
+<li>VCBF Blue Chip Fund focuses on generating long-term returns from investments in large cap companies, hence could be considered as a core equity portfolio for all type of investors with an investment horizon of 3 - 5 years or longer.</li>
+</ul>
+<p><strong>What type of investors is the fund suitable for?<br></strong></p>
+<ul>
+<li>VCBF Blue Chip Fund focuses on generating long-tern returns from investments in large cap companies, hence could be considered as a core equity portfolio for all type of investors with an investment horizon of 3-5 years or longer.</li>
+</ul></div></div>
+]]>
+    </string>
+    <string name="tacticalbalancedfund" formatted="false">
+<![CDATA[
+<p><strong>Description<br></strong></p> 
+The fund has flexibility in asset allocation taking either defensive or aggressive postures depending on opportunities available at various points in time. Under normal market conditions, the fund will invest 50% of its NAV in equity and 50% in high quality fixed income assets.</p>
+<p><strong>Investment objectives<br></strong></p> 
+The fund seeks long-term total return via growth of capital and current income</p>
+<p><strong>Investment strategy<br></strong></p> 
+<ul>
+<li><p>The fund&nbsp; invests in a diversified portfolio of listed common stocks, primarily in stocks with large market capitalization and Vietnam Government bonds, municipal bonds or bonds guaranteed by the Government or high quality listed corporate bonds.</p></li>
+<li><p>The fund actively seeks an optimal mix of equity and fixed income by evaluating risk and return of investment opportunities across the asset classes.</p></li>
+<li><p>The fund follows a blend of value and growth style of equity investing and follows a bottom-up approach to stock-picking by valuing fundamentals of the companies.</p></li>
+</ul>
+<p><strong>Benefits<br></strong></p> 
+<ul>
+<li><p>The fund offers a broad diversification and balanced exposure to the asset classes, making it attractive as a solid core holding in an investor’s portfolio.</p></li>
+<li><p>The fund benefits from a flexible asset allocation strategy when economic conditions change.</p></li>
+<li><p>VCBF Tactical Balanced Fund is an open-ended fund. You can read more about&nbsp; benefits of an open-ended fund in <a href="http://www.vcbf.com/en/open-ended-funds/open-ended-fund-basics/benefits-of-open-ended-funds/">“Benefits of OEFs”</a> item on menu “Open-end funds”.</p></li>
+]]>
+    </string>
+    <string name="hello_blank_fragment">This is a blank fragment.</string>
+    <string name="title_activity_balance_fund">BalanceFundActivity</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="about_us_text" formatted="false">
+<![CDATA[
+        <h1>Vietcombank Fund Management</h1>
+        <p>Vietcombank Fund Management ("VCBF") is a joint venture between Joint Stock Commercial Bank for Foreign Trade of Vietnam (“Vietcombank”) and Franklin Templeton Investments. Vietcombank is Vietnam’s leading financial institution and Franklin Templeton Investments is an internationally recognized investment firm and a pioneer in emerging market investments.</p>
+        <p>VCBF offers access to a range of investment opportunities in Vietnam. The institutional private equity business currently manages two active funds and intends to launch a further fund in the near future. VCBF’s asset management services are currently focused on separately managed accounts for institutions and high net worth clients.</p>
+		<p>VCBF has assembled a management and investment team with many years of experience in local and international finance. Our strong relationships with local companies provide value to investors through an in-depth knowledge of our targeted investee businesses and are of significant importance in the assessment and sourcing of attractive investments.</p>
+		<p>VCBF was established under the license No 06/UBCK-GPHÐQLQ issued on 2nd December 2005 by the State Securities Commission of Vietnam. Franklin Templeton became VCBF’s foreign partner in February 2008.</p>
+		<p>VCBF’s private equity funds and discretionary mandates are amongst the best performing in Vietnam.</p>
+		<p>VCBF was awarded the Best Investment Management Company in Vietnam in 2013, World Finance Magazine, UK (July – August 2013 edition).</p>
+		<h1>Partners</h1>
+		<p><strong>Joint-Stock Commercial Bank for Foreign Trade of Vietnam</strong></p>
+		<p>Vietcombank holds a 51% stake in VCBF and is widely regarded as Vietnam’s premier banking institution due to its broad capabilities and the central role it plays in Vietnam’s banking sector. It is the fourth largest banking group in terms of total assets and the second most profitable universal banking and financial services group in Vietnam.</p>
+		<p>Vietcombank is a market leader in corporate banking, trade finance, international payments and card services. It is the prime inter-bank lender with more than three quarters of its business in the corporate sector where it maintains more than 6,000 institutional relationships.</p>
+		<p>One of Vietcombank’s key strengths is its nationwide network of over 400 offices and around 14,000 employees, which provide the bank with extensive coverage and reach throughout Vietnam. The bank listed on the Ho Chi Minh Stock Exchange in June 2009 (Ticker: VCB).</p>
+		<p><strong>Franklin Templeton Investments ("FTI")</strong></p>
+		<p>Franklin Templeton Investments holds a 49% stake in VCBF and is a global investment management organization, headquartered in San Mateo, California. The group has offices in 35 countries and clients in more than 150.</p>
+		<p>With over 65 years of experience and a long history of investing in emerging markets, FTI was one of the first investment managers to establish a solid global footprint. The Templeton Emerging Markets Group (“TEMG”), led by Dr. Mark Mobius, has extensive reach and a strong presence in Asia with eight of its 18 offices and 29 investment professionals dedicated to the region.</p>
+		<p>FTI manages investments for individuals, institutions, pension plans, trusts, partnerships and other clients globally. The group offers investment solutions for investors including mutual funds, retirement savings vehicles and college savings plans. The group’s global and domestic investment management solutions are managed by its Franklin, Templeton, Mutual Series, Bissett, Fiduciary Trust, Darby, Balanced Equity Management and K2 investment teams.&nbsp;Total assets under management as at 31 May 2014 amounted to over US$908 billion.</p>
+		<p>Of FTI’s 110 offshore funds, 22 funds received a 4-Star Overall Morningstar Rating and 12 funds received a 5-Star Overall Morningstar Ratingas at November 2013.</p>
+		<p>As one of the earliest foreign fund investors in Vietnam, FTI launched its Templeton Vietnam Opportunities Fund and established a Vietnam office in February 1995. Presently, activities in Vietnam are assisted by its Ho Chi Minh City research office and involvement in VCBF.</p>        ]]>
+    </string>
+    <string name="contact_us_hanoi" formatted="false">
+<![CDATA[
+<tbody>
+<tr>
+<td><span style="color: #6fa938;"><strong><span>Hà Nội</span></strong></span></td>
+<td>
+<p>Tầng 15, Tòa nhà Vietcombank <br> 198 Trần Quang Khải</p>
+<p><span>Tel</span> : (84-4) 39364 540</p>
+<p><span> Fax</span> : (84-4) 39364 542</p>
+<p><span>Email</span> : <a href="mailto:info@vcbf.com">info@vcbf.com</a></p>
+</td>
+</tr>
+</tbody>
+        ]]>
+    </string>
+    <string name="contact_us_hochiminh">
+<![CDATA[
+<tbody>
+<tr>    
+<td><span style="color: #6fa938;"><strong><span>TP. Hồ Chí Minh</span></strong></span></td>
+<td>
+<p>Tầng 14, Tòa nhà Centec <br> 72-74 Nguyễn Thị Minh Khai, P.6, Q.3</p>
+<p><span>Tel</span> : (84-8) 38 270 750</p>
+<p><span> Fax</span> : (84-8) 38 270 751</p>
+<p><span>Email</span> :<a href="mailto:info@vcbf.com"> <span>info@vcbf.com</span></a></p>
+</td>
+</tr>
+</tbody>
+        ]]>
+    </string>
+    <string name="symbol">Symbol</string>
+    <string name="inception_date">Inception date</string>
+    <string name="license_number">License number</string>
+    <string name="supervisory_bank">Supervisory bank</string>
+    <string name="auditor">Auditor</string>
+    <string name="distributors">Distributors</string>
+    <string name="profit_distributions">Profit distributions</string>
+    <string name="net_asset_value">Net Asset Value</string>
+    <string name="nav_unit">NAV/unit</string>
+    <string name="nav_change_since_last_month">NAV change since last month</string>
+    <string name="ytd_total_return_at_nav">YTD Total Return at NAV</string>
+    <string name="highest_nav_units">Highest NAV/ unit (52w)</string>
+    <string name="lowest_nav_units">Lowest NAV/ unit (52w)</string>
+    <string name="number_of_outstanding_units">Number of outstanding units</string>
+    <string name="percentage_of_foreign_ownership">% of foreign ownership</string>
+    <string name="distribution_rate_at_nav">Distribution rate at NAV</string>
+    <string name="opearting_expense_rate">Operating expense rate (%)</string>
+    <string name="portfolio_turnover_rate">Portfolio turnover rate (%)</string>
+    <string name="sales_change">Sales charges (Max)</string>
+    <string name="symbol_text">VCBF-TBF</string>
+    <string name="inception_date_text">24/12/2013</string>
+    <string name="license_number_text">07/GCN-UBCK</string>
+    <string name="supervisory_bank_text">Deustche Bank AG, Ho Chi Minh City Branch</string>
+    <string name="auditor_text">N/A</string>
+    <string name="distributors_text">SSI, Vietcombank, VCBS</string>
+    <string name="profit_distributions_text">N/A</string>
+    <string name="net_asset_value_text">VND  73,976,386,490</string>
+    <string name="nav_unit_text">10,580.60</string>
+    <string name="nav_change_since_last_month_text">2.88%</string>
+    <string name="ytd_total_return_at_nav_text">5.71%</string>
+    <string name="highest_nav_units_text">10,787.45</string>
+    <string name="lowest_nav_units_text">9,781.44</string>
+    <string name="number_of_outstanding_units_text">6,991,698.47</string>
+    <string name="percentage_of_foreign_ownership_text">37.27%</string>
+    <string name="distribution_rate_at_nav_text">N/A</string>
+    <string name="opearting_expense_rate_text">2.24%</string>
+    <string name="portfolio_turnover_rate_text">14.55%</string>
+    <string name="sales_change_text">2%</string>
+    <string name="btn_dl_detail_pricing">Download detail pricing</string>
+    <string name="txt_frag_fund_nav_1"><b>Fund Prices and Breakpoints</b></string>
+    <string name="txt_frag_fund_nav_2">As of 30 June 2014</string>
+    <string name="txt_frag_fund_nav_3"><b>Per Unit Price (VND)</b></string>
+    <string name="txt_frag_fund_nav_4">NAV/unit                      10 580.60</string>
+    <string name="txt_frag_fund_nav_5">NAV change                        2.88%</string>
+    <string name="txt_frag_fund_nav_6">POP (Public Offering Price)   10 000.00</string>
+    <string name="txt_frag_fund_nav_7"><b>52-Week Range (VND)</b></string>
+    <string name="txt_frag_fund_nav_8">Highest NAV/unit (52w)        10 787.45</string>
+    <string name="txt_frag_fund_nav_9">Lowest NAV/unit (52w)          9 781.44</string>
+
+    <string-array name="settings">
+        <item>Language</item>
+    </string-array>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Vietnamese</item>
+    </string-array>
+    <string-array name="onAndOff">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+
+    <string name="choose_language">Language</string>
+    <string name="turn_notification">Notification</string>
+    <string name="turn_sound">Sound</string>
+    <string name="ok">Confirm</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="loading">Loading...</string>
+    <string name="loadingDB">Loading database, please wait...</string>
+
+</resources>
